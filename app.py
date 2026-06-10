@@ -80,6 +80,7 @@ current_us_unrate = float(us_unrate_data['UNRATE'].iloc[-1])
 # 한국 지표 세팅
 current_kr_rate = 3.50 
 current_kr_cpi = 2.6  
+current_kr_unrate = 2.8
 
 # =================================================================
 # 🚨 [조건문] 알림 기준 체크 로직 (지정한 범위를 벗어나면 알림)
